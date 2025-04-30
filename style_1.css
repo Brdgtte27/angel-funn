@@ -1,0 +1,72 @@
+/* General styling for the application */
+/* Title styling */
+.title-label {
+    -fx-font-size: 35px;                /* Large font size for emphasis */
+    -fx-font-weight: bold;              /* Make the title bold */
+    -fx-text-fill: #ffffff;             /* White text color */
+    -fx-font-family: "Arial", sans-serif;/* You can change this to any font family */
+    -fx-text-shadow: 0 0 5px rgba(255, 255, 255, 1); /* Light pink glow effect */
+    -fx-padding: 15px;                  /* Padding around the title */
+    -fx-effect: innershadow(gaussian, #f1ebec, 3, 0.0, 0.0, 5); /* Optional: inner shadow effect */
+}
+
+
+/* Semi-transparent AnchorPane */
+.anchor-pane-background {
+    -fx-background-color: rgba(255, 182, 193, 0.2); /* Slightly transparent pink background */
+    -fx-background-radius: 15px;        /* Rounded corners for the background */
+    -fx-background-padding: 50px;                  /* Padding around the title */
+    -fx-background-effect: innershadow(gaussian, #ffb6c1, 10, 0.0, 0.0, 5); /* Optional: inner shadow effect */
+}
+
+/* Username and Password field styling */
+.text-field, .password-field {
+    -fx-pref-width: 300px;   /* Set the preferred width */
+    -fx-pref-height: 40px;    /* Set the preferred height to be uniform for both fields */
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 20px;
+    -fx-padding: 10px;
+    -fx-font-size: 14px;      /* Ensures text fields use the standard font size */
+    -fx-focus-color: #4CAF50;
+    -fx-effect: innershadow(gaussian, #bbb, 5, 0.0, 0.0, 5); 
+
+}
+
+/* Status label (error/success messages) */
+.status-label {
+    -fx-text-fill: red; /* Use -fx-text-fill for error messages */
+    -fx-font-size: 12px;
+}
+
+
+/* Login button styling */
+.login-button {
+    -fx-background-color: #4CAF50;
+    -fx-background-radius: 15px;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-fontstyle: bold;
+    -fx-padding: 10px 20px;
+
+}
+
+/* Glow effect when mouse hovers over the login button */
+.login-button:hover {
+    -fx-background-color: #69b16d;  /* Slightly darker green on hover */
+    -fx-effect: innershadow(gaussian, #818181, 5, 0, 0, 5); /* Default inner shadow */ 
+}
+
+/* Forgot Password button styling */
+.forgot-password {
+    -fx-text-fill: #0a498b;
+    -fx-underline: true;
+    -fx-font-size: 12px;
+    -fx-cursor: hand;
+}
+
+/* Glow effect when mouse hovers over the Forgot Password link */
+.forgot-password:hover {
+    -fx-text-fill: #0056b3; /* Darker blue text color */
+    -fx-effect  : innershadow(gaussian, #2cb2db, 5, 0, 0, 0); /* Slight glow effect with yellow color */
+}
+
