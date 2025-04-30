@@ -1,0 +1,45 @@
+.button {
+    -fx-background-radius: 15px;
+    -fx-background-color: white;
+    -fx-border-color: #f23557;
+    -fx-border-radius: 10px;
+    -fx-text-fill: #f23557;
+    -fx-font-weight: bold;
+    -fx-padding: 5px 15px;
+    -fx-font-size: 14px;
+}
+
+.button:hover {
+    -fx-background-color: #f23557;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+}
+
+.username-btn {
+    -fx-background-color: transparent;
+    -fx-text-fill: #ff69b4;
+    -fx-border-color: #ff69b4;
+    -fx-border-radius: 20px;
+    -fx-padding: 4px 10px;
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+}
+
+.username-btn:hover {
+    -fx-background-color: #ff69b4;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+}
+.box {
+    -fx-background-color: transparent;
+    -fx-opacity: 0;
+    -fx-pointer-events: none;
+}
+
+.pick-label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #f23557;
+    -fx-effect: dropshadow(gaussian, white, 2, 0.5, 0, 0);
+}
+
